@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+h2{
+    margin: 2em;
+}
+
+h1{
+    margin: 1em;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(35, 35, 76);
+    color: aliceblue;
+}
+
+li{
+    list-style-type: none;
+    margin: 1em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 300px;
+    background-color: rgb(201, 201, 150);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(71, 54, 54);
+}
+
+.footerTitle{
+    margin: 0;
+}
